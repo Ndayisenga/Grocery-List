@@ -22,6 +22,7 @@
 		81D71A4225B2F9970059402E /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D71A4125B2F9970059402E /* ComplicationController.swift */; };
 		81D71A4425B2F9980059402E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81D71A4325B2F9980059402E /* Assets.xcassets */; };
 		81D71A4925B2F9980059402E /* Grocery List Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 81D71A2A25B2F9960059402E /* Grocery List Watch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		81E567FF25B43CD0001C29F4 /* RowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E567FE25B43CD0001C29F4 /* RowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 		81D71A4325B2F9980059402E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81D71A4525B2F9980059402E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81D71A4625B2F9980059402E /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		81E567FE25B43CD0001C29F4 /* RowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 				81D71A4325B2F9980059402E /* Assets.xcassets */,
 				81D71A4525B2F9980059402E /* Info.plist */,
 				81D71A4625B2F9980059402E /* PushNotificationPayload.apns */,
+				81E567FE25B43CD0001C29F4 /* RowController.swift */,
 			);
 			path = "Grocery List Watch Extension";
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81E567FF25B43CD0001C29F4 /* RowController.swift in Sources */,
 				81D71A4025B2F9970059402E /* NotificationController.swift in Sources */,
 				81D71A4225B2F9970059402E /* ComplicationController.swift in Sources */,
 				81D71A3E25B2F9970059402E /* ExtensionDelegate.swift in Sources */,
